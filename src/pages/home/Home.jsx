@@ -5,7 +5,7 @@ import Featured from '../../components/featured/Featured';
 import Navbar from '../../components/navbar/Navbar';
 import Sidebar from '../../components/sidevar/Sidebar';
 import Widget from '../../components/widget/Widget';
-import Table from '../../components/table/Table';
+import Table from '../../components/table/Tables';
 
 import './home.scss';
 
@@ -25,7 +25,7 @@ const Home = () => {
 
           <div className="charts">
               <Featured/>
-              <Chart/>
+              <Chart aspect={2 / 1} title='Last 6 Mounths (Revenue)'/>
           </div>
 
           <div className="listContainer">
